@@ -1,0 +1,16 @@
+<table class="table">
+    <thead>
+        <tr>
+            <td>Picture</td>
+            <td>Dish</td>
+            <td>Cost</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let employee of employees">
+            <td><img src={{employee.Picture}} width="50" height="50"></td>
+            <td>{{employee.Dish}}</td>
+            <td>{{employee.cost}}</td>
+        </tr>
+    </tbody>
+</table>
